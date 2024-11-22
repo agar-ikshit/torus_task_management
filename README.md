@@ -4,7 +4,7 @@ This template provides a minimal setup to get React working in Vite with HMR and
 
 
 # First request to the server might take a few minutes
-# DEPLOYED LINK: https://torus-task-management.vercel.app/
+  DEPLOYED LINK: https://torus-task-management.vercel.app/
 
 
 
