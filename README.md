@@ -2,9 +2,11 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-DEPLOYED LINK: https://torus-task-management.vercel.app/
 
-# *First request to the server might take a few minutes*
+# First request to the server might take a few minutes
+# DEPLOYED LINK: https://torus-task-management.vercel.app/
+
+
 
 Currently, two official plugins are available:
 
