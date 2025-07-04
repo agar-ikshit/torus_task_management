@@ -56,6 +56,7 @@ The frontend is deployed on Vercel and accessible at:
 Backend Repository: [torus_backend](https://github.com/agar-ikshit/torus_backend)
 ---
 ✅ Contributing
+---
 Fork the repository
 
 Create your feature branch (git checkout -b feature/YourFeature)
@@ -68,10 +69,4 @@ Open a pull request
 
 
 
-📄 License
-This project is licensed under the MIT License.
-
-✏️ Author
-Ikshit Agarwal
-GitHub
 
