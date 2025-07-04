@@ -52,9 +52,7 @@ The frontend is deployed on Vercel and accessible at:
 ⚠️ Note: The first request after some idle time might take a minute to load, because the backend is hosted on a free tier which may go into sleep mode.
 
 🔗 Related Projects
-Backend Repository: torus_backend
-
-Live Backend (hosted on Render): Add link if you have one
+Backend Repository: [torus_backend](https://github.com/agar-ikshit/torus_backend)
 
 ✅ Contributing
 Fork the repository
