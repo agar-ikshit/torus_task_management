@@ -50,7 +50,7 @@ const TaskList = () => {
 
   const handleGenerateReport = async (taskId) => {
     try {
-      const response = await axios.get(`https://torus-backend-9mrl.onrender.com/api/reports/summary`, {
+      const response = await axios.get(`https://torus-backend-xr0w.onrender.com/api/reports/summary`, {
         params: {
           ids: taskId,
           format: reportFormat, // Use the selected format
@@ -70,7 +70,7 @@ const TaskList = () => {
 
   const handleDelete = async (taskId) => {
     try {
-      await axios.delete(`https://torus-backend-9mrl.onrender.com/api/tasks${taskId}`, {
+      await axios.delete(`https://torus-backend-xr0w.onrender.com/api/tasks${taskId}`, {
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`,
         },
@@ -93,7 +93,7 @@ const TaskList = () => {
 
   const handleUpdateTask = async (updatedTask) => {
     try {
-      await axios.put(`https://torus-backend-9mrl.onrender.com/api/tasks${updatedTask._id}`, updatedTask, {
+      await axios.put(`https://torus-backend-xr0w.onrender.com/api/tasks${updatedTask._id}`, updatedTask, {
         headers: {
           'Authorization': `Bearer ${localStorage.getItem('token')}`,
         },
