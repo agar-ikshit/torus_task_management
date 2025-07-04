@@ -19,7 +19,7 @@ export const AuthProvider = ({ children }) => {
   }, []);
 
   const login = async (credentials) => {
-    const response = await axios.post('https://torus-backend-9mrl.onrender.com/api/auth/login', credentials);
+    const response = await axios.post('https://torus-backend-xr0w.onrender.com/api/auth/login', credentials);
     const { token, email, isAdmin } = response.data; 
     setUser({ email, token, isAdmin });
     localStorage.setItem('token', token);
@@ -36,7 +36,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const register = async (userData) => {
-    await axios.post('https://torus-backend-9mrl.onrender.com/api/auth/register', userData);
+    await axios.post('https://torus-backend-xr0w.onrender.com/api/auth/register', userData);
   };
 
   return (
