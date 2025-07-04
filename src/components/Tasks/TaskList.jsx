@@ -23,7 +23,7 @@ const TaskList = () => {
 
       try {
         console.log(user.email);
-        const response = await axios.get('https://torus-backend-9mrl.onrender.com/api/tasks/user', {
+        const response = await axios.get('https://torus-backend-xr0w.onrender.com/api/tasks/user', {
           params: { email: user.email },
           headers: {
             'Authorization': `Bearer ${localStorage.getItem('token')}`,
