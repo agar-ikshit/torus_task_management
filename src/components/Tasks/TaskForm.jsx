@@ -37,7 +37,7 @@ const TaskForm = ({ setRefresh, taskToUpdate, onUpdateTask, user }) => {
       if (taskToUpdate) {
         await onUpdateTask({ ...task, _id: taskToUpdate._id }); // Pass the task ID
       } else {
-        await axios.post("https://torus-backend-9mrl.onrender.com/api/tasks", task, {
+        await axios.post("https://torus-backend-xr0w.onrender.com/api/tasks", task, {
           headers: {
             Authorization: `Bearer ${localStorage.getItem('token')}`,
           },
