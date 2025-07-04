@@ -50,10 +50,11 @@ The frontend is deployed on Vercel and accessible at:
 🌐 Live App: https://torus-task-management.vercel.app/
 
 ⚠️ Note: The first request after some idle time might take a minute to load, because the backend is hosted on a free tier which may go into sleep mode.
+---
 
 🔗 Related Projects
 Backend Repository: [torus_backend](https://github.com/agar-ikshit/torus_backend)
-
+---
 ✅ Contributing
 Fork the repository
 
@@ -64,7 +65,7 @@ Commit your changes (git commit -m 'Add new feature')
 Push to your branch (git push origin feature/YourFeature)
 
 Open a pull request
-
+---
 📄 License
 This project is licensed under the MIT License.
 
