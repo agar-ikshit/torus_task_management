@@ -29,6 +29,9 @@ const Register = () => {
       <input name="username" placeholder="Username" onChange={handleChange} required />
       <input name="email" type = "email" placeholder="Email" onChange={handleChange} required />
       <input name="password" type="password" placeholder="Password" onChange={handleChange} required />
+        <small style={{ color: 'gray', fontSize: '12px' }}>
+ minimum characters required: 6
+</small>
       <label>Select Role:</label><br />
           <label>
             <input
