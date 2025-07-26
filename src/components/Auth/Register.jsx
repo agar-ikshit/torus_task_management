@@ -32,6 +32,7 @@ const Register = () => {
         <small style={{ color: 'gray', fontSize: '12px' }}>
  minimum characters required: 6
 </small>
+        <br></br><br></br>
       <label>Select Role:</label><br />
           <label>
             <input
