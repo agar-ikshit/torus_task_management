@@ -25,7 +25,27 @@ const Register = () => {
       <input name="username" placeholder="Username" onChange={handleChange} required />
       <input name="email" type = "email" placeholder="Email" onChange={handleChange} required />
       <input name="password" type="password" placeholder="Password" onChange={handleChange} required />
-      <input name="isAdmin" placeholder="isAdmin" onChange={handleChange} required />
+      <label>Select Role:</label><br />
+          <label>
+            <input
+              type="radio"
+              name="isAdmin"
+              value="false"
+              checked={userData.isAdmin === false}
+              onChange={handleChange}
+            />
+            User
+          </label>{' '}
+          <label>
+            <input
+              type="radio"
+              name="isAdmin"
+              value="true"
+              checked={userData.isAdmin === true}
+              onChange={handleChange}
+            />
+            Admin
+          </label>
       <button type="submit">Register</button>
     </form>
   );
