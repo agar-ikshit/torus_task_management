@@ -15,6 +15,10 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+       const payload = {
+      ...userData,
+      isAdmin: userData.isAdmin === 'true' // convert to boolean
+    };
     await register(userData);
     toast.success("User registered successfully");
     navigate('/login');
@@ -31,7 +35,7 @@ const Register = () => {
               type="radio"
               name="isAdmin"
               value="false"
-              checked={userData.isAdmin === false}
+              checked={userData.isAdmin === 'false'}
               onChange={handleChange}
             />
             User
@@ -41,7 +45,7 @@ const Register = () => {
               type="radio"
               name="isAdmin"
               value="true"
-              checked={userData.isAdmin === true}
+              checked={userData.isAdmin === 'true'}
               onChange={handleChange}
             />
             Admin
