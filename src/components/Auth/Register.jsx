@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const Register = () => {
   const { register } = useContext(AuthContext);
-  const [userData, setUserData] = useState({ username: '', password: '',email:'',isAdmin:'' });
+  const [userData, setUserData] = useState({ username: '', password: '',email:'',isAdmin:false });
   const navigate = useNavigate();
 
   const handleChange = (e) => {
